@@ -1,0 +1,81 @@
+header img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+header {
+    
+    text-align: top;
+    font-size: 20px;
+   
+    background-color: blueviolet;
+
+}
+ .topnav {
+   background-color: aqua;
+
+ }
+
+ #header{
+   background-size: auto;
+
+ }
+
+ #footer {
+    background-color: rgb(0, 255, 47);
+    text-align: center;
+    font-size: small;
+ }
+
+ .image1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+float: inherit;
+ }
+
+
+.section1{
+    text-align: top;
+   width: 100px;
+
+
+}
+
+#row {
+display: flex;
+}
+
+*#image2 {
+    width: 320px;
+    height: 240px;
+}
+
+.container {
+    display: flex;
+}
+
+.video-container,
+.image-container {
+    flex-direction: column-reverse;
+    margin: 10px;
+}
+
+video,
+img {
+    width: 75%;
+            height:75%;
+            object-fit: cover;
+        }
+       
+        /* Apply Roboto font to the entire body, including the navigation bar */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Specific styling for the navigation bar */
+.topnav {
+    font-family: 'Roboto',
+}
+
+        
